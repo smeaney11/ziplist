@@ -9,7 +9,7 @@ function zipList(list1: (string | number)[], list2: (string | number)[]): (strin
 
 function zipListTheFunctionalWay(
   list1: (string | number)[],
-  list2: (string | number)[]
+  list2: (string | number)[],
 ): (string | number)[] {
   const result: (string | number)[] = [];
   for (let i = 0; i < list1.length; i++) {
